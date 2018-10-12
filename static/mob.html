@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mobile Control</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="NIE IEEE Orientation 2017" />
+  <meta name="author" content="Milan Menezes" />
+  <meta name="keywords" content="NISB, Orientation, NIE, IEEE, Computer Society">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+	<center>
+	</br>
+	<div class="row">
+	<div class="col-md-4"></div>
+	<div class="col-md-4">
+	<button type="button" class="btn btn-success btn-lg" style="width: 100%;" onclick="nextSlide()">Next</button>
+	</div>
+	<div class="col-md-4"></div>
+	</div>
+	</br>
+	</br>
+	<div class="row">
+	<div class="col-md-4"></div>
+	<div class="col-md-4">
+	<button type="button" class="btn btn-warning btn-lg" style="width: 100%;" onclick="prevSlide()">Prev</button>
+	</div>
+	<div class="col-md-4"></div>
+	</div>
+	</center>
+	</div>
+</body>
+</html>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+<script type="text/javascript">
+	var socket = io.connect('http://192.168.43.132:5000');
+	function prevSlide(){
+		socket.emit('transit', 'prev');
+	}
+	function nextSlide(){
+		socket.emit('transit', 'next');
+	}
+</script>

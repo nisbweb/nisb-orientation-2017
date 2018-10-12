@@ -1,0 +1,183 @@
+#elonlogo {
+	position: relative;
+	width: 140%;
+	left: -20%;
+
+}
+
+#elon-2 {
+	margin-left: -20%;
+}
+
+#bigbang {
+	position: relative;
+	width: 130%;
+	left: -15%;
+}
+
+#ironman {
+	position: relative;
+	width: 150%;
+	left: -20%;
+}
+
+#ieee {
+	width: 100%;
+} 
+
+#num1 {
+	font-size: 650%;
+}
+
+#txt1 {
+	font-size: 400%;
+}
+
+#txt2 {
+	font-size: 400%;
+	text-align: center;
+}
+
+.cylinder {
+	width: 50%;
+	
+}
+
+#nisblogo {
+	width: 80%;
+}
+
+#num2 {
+	font-size: 650%;
+	text-align: center;
+}
+
+#txt3 {
+	font-size: 400%;
+	text-align: center;
+}
+
+.ieeebenefits {
+	width: 100%;
+	display: block;
+    margin: 0 auto;	
+}
+
+#myieee{
+	width: 80%;
+}
+
+.smaller{ width: 70%; }
+
+#heading {font-size: 200%; text-align: center;}
+
+.cslogo {
+
+	width: 100%;
+}
+
+.img-center {
+	display: block;
+    margin: 0 auto;	
+}
+
+.txt-center {
+	text-align: center;
+}
+
+#cs-benefits {
+	font-size: 210%;
+}
+
+#cs-pub {
+	width: 130%;
+	margin-left: -12%;
+}
+
+.cs-txt-lrg {
+	font-size: 250%;
+}
+
+ ul {
+	list-style-type: circle;
+}
+
+ul li {
+	margin-left: 10%;
+}
+
+#project {
+	width: 140%;
+	margin-left: -18%;
+}
+
+#project-txt {
+	margin-top: -10%;
+
+}
+
+#wie-img-2 {
+	width: 90%;
+}
+
+#alias {
+	font-size: 200%;
+	margin-left: -15%;
+}
+
+#wie-p {
+	width: 150%;
+	margin-left: -20%;
+}
+
+#wie-benifits {
+	font-weight: bold;
+	font-size: 120%;
+	
+}
+
+#nisb-video {
+	width: 100%;
+}
+
+#Contact {
+	position: absolute;
+	top:-250%;
+	left: 30%;
+	font-size: 150%;
+	font-weight: bold;
+	text-align: center;
+}
+
+#limita {
+	position: absolute;
+	top:40%;
+	left: -10%;
+	text-align: center;
+
+}
+
+#adithya {
+	position: absolute;
+	top:40%;
+	left: 60%;
+	text-align: center;
+}
+
+#membership {
+	width: 70%;
+}
+
+#thank {
+	text-align: center;
+	font-size: 400%;
+}
+
+#price {
+	text-align: center;
+	font-size: 200%;
+}
+
+#many-more {
+	font-size: 200%;
+}
